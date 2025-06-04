@@ -21,4 +21,5 @@ export default async function handler(req, res) {
   const data = await response.json();
   res.status(200).json({ result: data.choices[0].text.trim() });
 }
+console.log("ENV API KEY:", process.env.OPENAI_API_KEY ? "Loaded" : "Missing");
 
