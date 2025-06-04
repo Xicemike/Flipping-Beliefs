@@ -1,0 +1,13 @@
+{
+  "name": "flipping-beliefs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/flip.js",
+  "scripts": {
+    "start": "node api/flip.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {}
+}
